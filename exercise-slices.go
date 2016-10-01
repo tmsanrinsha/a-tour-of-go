@@ -2,6 +2,8 @@ package main
 
 import "golang.org/x/tour/pic"
 
+// https://go-tour-jp.appspot.com/moretypes/18
+
 func Pic(dx, dy int) [][]uint8 {
 	img := make([][]uint8, dy)
 
